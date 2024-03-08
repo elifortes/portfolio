@@ -1,23 +1,33 @@
+
+
 .about_container {
+  padding: 4rem 0px;
   display: flex;
-  gap: 15%;
-  text-align: left;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.about_me-image {
-  display: flex;
-  margin-top: -2rem;
+.about_container h2 {
+  margin: 0%;
+  padding: 50px;
 }
 
 .about_content p {
-  display: block;
-  margin-top: -2rem;
-  text-align: left;
-  margin-bottom: 2.5rem;
-  font-size: 20pt;
-  font-weight: normal;
+  margin: 0%;
   line-height: 1.5;
   color: rgb(112, 112, 112);
+}
+
+.btn-about {
+  display: flex;
+  margin-top: 2rem;
+  width: max-content;
+  border: none;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  background: rgb(0, 116, 217);
+  padding: 0.75rem;
+  cursor: pointer;
 }
 
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
