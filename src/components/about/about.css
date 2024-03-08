@@ -1,0 +1,37 @@
+.about_container {
+  display: flex;
+  gap: 15%;
+  text-align: left;
+}
+
+.about_me-image {
+  display: flex;
+  margin-top: -2rem;
+}
+
+.about_content p {
+  display: block;
+  margin-top: -2rem;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  font-size: 20pt;
+  font-weight: normal;
+  line-height: 1.5;
+  color: rgb(112, 112, 112);
+}
+
+/* -------- MEDIA (MEDIUM DEVICES) -------- */
+
+@media screen and (max-width: 1024px) {
+  .about_content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* -------- MEDIA (SMALL DEVICES) -------- */
+
+@media screen and (max-width: 600px) {
+  .about_content {
+    text-align: center;
+  }
+}

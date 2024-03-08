@@ -1,0 +1,31 @@
+nav {
+  background: rgb(240, 238, 238);
+  width: max-content;
+  /* display: block; */
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 2rem;
+}
+
+nav a {
+  padding: 0.9rem;
+  display: flex;
+  color: grey;
+  font-size: large;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a.active {
+  background: lightgrey;
+  color: black;
+  border-radius: 2rem;
+}

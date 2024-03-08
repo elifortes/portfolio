@@ -1,13 +1,101 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-bg: white;
+  --color-light: grey;
+
+  --container-width-lg: 75%;
+  --container-widtth-md: 86%;
+  --container-width-ms: 90%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  line-height: 1.7;
+}
+
+/* -------- GENERAL STYLES -------- */
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+  height: 100vh;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  /* color: var(--color-light); */
+}
+
+section > h2 {
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  width: max-content;
+  border: none;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  background: rgb(0, 116, 217);
+  padding: 0.75rem;
+  cursor: pointer;
+  margin: 10px;
+  /* display: inline-block; */
+}
+
+
+
+/* -------- MEDIA (MEDIUM DEVICES) -------- */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-widtth-md);
+  }
+}
+
+/* -------- MEDIA (SMALL DEVICES) -------- */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
 }
