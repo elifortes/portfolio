@@ -1,7 +1,12 @@
+.contact_container{
+  display: flex;
+  gap: 10rem;
+}
+
 
 form {
   display: flex;
-  /* align-items: left; */
+  flex-basis: 50%;
   flex-direction: column;
   gap: 1.2rem;
   margin-top: 1rem;
@@ -9,30 +14,85 @@ form {
 
 input,
 textarea {
-  width: 50%;
+  width: 100%;
   padding: 1rem;
   border-radius: 0.5rem;
   background: transparent;
   border: 2px solid var(--color-blue);
-  resize: none;
+  /* resize: none; */
 }
+
+.girl_pic_container {
+  flex-basis: 10%;
+  display: flex;
+}
+
+.girl_pic {
+  width: 200%;
+}
+
+.btn-contact {
+  display: flex;
+  margin-top: 2rem;
+  width: max-content;
+  border: none;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  background: rgb(0, 116, 217);
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
 
 
 
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
 
 @media screen and (max-width: 1024px) {
-  input,
-  textarea {
-    width: 100%;
+  .contact_container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .girl_pic_container {
+    flex-basis: auto;
+    justify-content: center;
+    margin-top: -5rem;
+    margin-bottom: -15rem;
+  }
+  .girl_pic {
+    width: 80%;
+    height: auto;
+  }
+  .btn-contact{
+    width: none;
+    margin: 1rem auto auto;
+    justify-content: center;
   }
 }
 
 /* -------- MEDIA (SMALL DEVICES) -------- */
 
 @media screen and (max-width: 600px) {
-  input,
-  textarea {
+  .contact_container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  form {
+    flex-basis: auto;
     width: 100%;
+  }
+  .girl_pic_container {
+    flex-basis: auto;
+    justify-content: center;
+  }
+
+  .girl_pic {
+    width: 100%;
+    height: auto;
+  }
+  .btn-contact{
+    width: none;
+    margin: 1rem auto auto;
+    justify-content: center;
   }
 }

@@ -20,6 +20,72 @@
   --container-width-sm: 90%;
 }
 
+#light {
+  background-color: white;
+}
+
+#light .header_socials a{
+  color: black;
+}
+
+#light h3{
+  color: black;
+}
+
+#light h2{
+  color: black;
+}
+
+
+#light header h4{
+  color: var(--color-light);
+}
+
+#light .scroll_down {
+  color: black;
+}
+/*
+#light textarea {
+  border: none;
+} */
+
+#light .portfolio_item-cta a {
+  color: black;
+}
+
+#dark {
+  background-color: rgb(33, 33, 33)
+}
+
+#dark .portfolio_item {
+  background-color: black;
+}
+
+#dark
+h1,
+h2,
+h4,
+.scroll_down,
+#about,
+#projects,
+.portfolio_item-cta a
+{
+  color: white;
+}
+
+#dark .header_socials a {
+  color: white;
+}
+
+#dark .header_socials::after{
+  background-color: white;
+}
+
+#dark input, textarea {
+  background-color: white;
+  /* border: var(--color-bg); */
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
@@ -43,10 +109,16 @@ h1 {
   font-size: 2.5rem;
 }
 
+
+
 h4,
 h5 {
   font-weight: 400;
+  /* font-size: 15pt; */
 }
+
+/* font-size: 20pt;
+font-weight: bold; */
 
 /* section {
   margin-top: 8rem;
@@ -80,6 +152,7 @@ img{
   margin: 10px;
   /* display: inline-block; */
 }
+
 
 
 

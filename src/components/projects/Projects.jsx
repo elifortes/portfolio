@@ -59,10 +59,10 @@ const Projects = () => {
           <h4>{titleh4}</h4>
             <div className='portfolio_item-image'>
               <a href={github}>
-              <img src={image} alt='' style={{width:'250px', height:'auto'}} />
+              <img src={image} alt='' />
               </a>
               <div className='portfolio_item-cta'>
-                <a href={demo} target='_blank'><FaGithub style={{color:'black'}}/></a>
+                <a href={demo} target='_blank'><FaGithub/></a>
                 <h5>{titleh5}</h5>
               </div>
             </div>

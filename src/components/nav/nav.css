@@ -1,19 +1,22 @@
 nav {
   background: rgb(240, 238, 238);
   width: max-content;
-  /* display: block; */
-  padding: 0.7rem 1.7rem;
+  padding: 0.2rem 1rem;
   z-index: 2;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
   bottom: 2rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 0.8rem;
   border-radius: 2rem;
+  backdrop-filter: blur(15px);
 }
 
 nav a {
+  background: transparent;
   padding: 0.9rem;
   display: flex;
   color: grey;

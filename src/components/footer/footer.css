@@ -1,0 +1,53 @@
+footer {
+  position: relative;
+
+  padding: 3rem;
+  margin: 7rem auto 4rem;
+  font-size: 1rem;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+.footer_name h2{
+  margin: 0 auto 1rem;
+}
+
+.permalinks {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0 auto 3rem;
+  color: white;
+}
+
+.footer_copy {
+  display: flex;
+  margin-top: -1.5rem;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/*
+
+.footer_image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.footer_image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+*/
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-top: -5rem;
+  }
+};

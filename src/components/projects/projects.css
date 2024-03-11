@@ -6,12 +6,18 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
+
+}
+
+.portfolio_item-image {
+width: 60%;
+height: auto;
 }
 
 .portfolio_item {
   padding: 1rem;
   margin: 0;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 8px 8px 8px rgba(24, 24, 24, 0.2);
 }
 
 .portfolio_item h4 {
@@ -64,6 +70,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+  #projects h2 {
+    margin-top: 2rem;
+    }
 }
 
 /* -------- MEDIA (SMALL DEVICES) -------- */
@@ -72,5 +81,8 @@
   .portfolio_container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  #projects h2 {
+  margin-top: -8rem;
   }
 }
