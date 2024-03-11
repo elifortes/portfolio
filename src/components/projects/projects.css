@@ -33,7 +33,7 @@
 /* ------------ Project Filter ------------- */
 
 
-.portfolio_container-filter {
+/* .portfolio_container-filter {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -54,7 +54,7 @@
 
 .portfolio_item-filter h5 {
   color: var(--color-light);
-}
+} */
 
 
 /* -------- MEDIA (MEDIUM DEVICES) -------- */

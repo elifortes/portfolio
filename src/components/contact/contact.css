@@ -1,0 +1,38 @@
+
+form {
+  display: flex;
+  /* align-items: left; */
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-blue);
+  resize: none;
+}
+
+
+
+/* -------- MEDIA (MEDIUM DEVICES) -------- */
+
+@media screen and (max-width: 1024px) {
+  input,
+  textarea {
+    width: 100%;
+  }
+}
+
+/* -------- MEDIA (SMALL DEVICES) -------- */
+
+@media screen and (max-width: 600px) {
+  input,
+  textarea {
+    width: 100%;
+  }
+}

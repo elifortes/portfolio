@@ -13,10 +13,11 @@
 :root {
   --color-bg: white;
   --color-light: grey;
+  --color-blue: blue;
 
   --container-width-lg: 75%;
   --container-widtth-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 body {
@@ -47,10 +48,10 @@ h5 {
   font-weight: 400;
 }
 
-section {
+/* section {
   margin-top: 8rem;
   height: 100vh;
-}
+} */
 
 section > h2 {
   text-align: center;
