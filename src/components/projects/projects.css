@@ -1,4 +1,4 @@
-#projects {
+.cardSection {
   margin: 10px;
 }
 
@@ -10,9 +10,30 @@
 }
 
 .portfolio_item-image {
-width: 60%;
+width: 50%;
 height: auto;
 }
+
+.portfolio_item-image img {
+  display: block;
+  margin-left: 50%;
+
+  }
+
+  #design .portfolio_container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+#design h2 {
+  margin-top: 2rem;
+}
+
+#software h2 {
+  margin-top: -8rem;
+}
+
 
 .portfolio_item {
   padding: 1rem;
@@ -27,13 +48,14 @@ height: auto;
 
 .portfolio_item h5 {
   color: var(--color-light);
+
 }
 
 .portfolio_item-cta {
+  width: max-content;
   margin-top: 1.5rem;
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
 }
 
 /* ------------ Project Filter ------------- */

@@ -1,16 +1,20 @@
 footer {
   position: relative;
-
-  padding: 3rem;
-  margin: 7rem auto 4rem;
+  padding-top: 5rem;
+  padding-bottom: 120px;
   font-size: 1rem;
   text-align: center;
-
+  background-image: url('../../assets/ilustrations/wave.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300%;
   overflow: hidden;
+  color: var(--text-color-dark);
+
 }
 
 .footer_name h2{
-  margin: 0 auto 1rem;
+  margin: 1rem;
 }
 
 .permalinks {
@@ -18,7 +22,10 @@ footer {
   justify-content: center;
   gap: 3rem;
   margin: 0 auto 3rem;
-  color: white;
+}
+
+.permalinks a {
+  color: black;
 }
 
 .footer_copy {
@@ -28,26 +35,12 @@ footer {
   gap: 0.5rem;
 }
 
-/*
-
-.footer_image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
+.footer_copy a {
+  color: black;
 }
-
-.footer_image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-*/
 
 @media screen and (max-width: 600px) {
   footer {
     margin-top: -5rem;
   }
-};
+}

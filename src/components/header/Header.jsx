@@ -12,15 +12,13 @@ const Header = () => {
     <header>
       <div className='container header_container'>
         <h4>Hello, I'm</h4>
-        <h1>Eliane Fortes</h1>
+        <h1>Eliane Fortes </h1>
         <h4 className='text-light'>Software Developer</h4>
         <CTA />
         <HeaderSocials />
-
         <div className='me'>
           <img src={MeImage} alt='' />
         </div>
-
         <a href='#contact' className='scroll_down'>Scroll Down</a>
       </div>
     </header>

@@ -13,7 +13,7 @@ const ThemeContext = createContext(null);
 
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === 'light' ? 'dark' : 'light'))

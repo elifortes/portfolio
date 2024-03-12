@@ -18,6 +18,12 @@
   --container-width-lg: 75%;
   --container-widtth-md: 86%;
   --container-width-sm: 90%;
+
+}
+
+.swith {
+  display: flex;
+  justify-content: center;
 }
 
 #light {
@@ -61,6 +67,10 @@
   background-color: black;
 }
 
+#dark .success-message {
+  color: white;
+}
+
 #dark
 h1,
 h2,
@@ -85,6 +95,10 @@ h4,
   background-color: white;
   /* border: var(--color-bg); */
 }
+
+/* #dark .permalinks a {
+  color: white;
+} */
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -127,7 +141,7 @@ font-weight: bold; */
 
 section > h2 {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .text-light {
@@ -146,11 +160,11 @@ img{
   border: none;
   border-radius: 0.5rem;
   color: aliceblue;
-  background: rgb(0, 116, 217);
+  background-image: linear-gradient(to right, #57a3c9, #33ccff);
   padding: 0.75rem;
   cursor: pointer;
   margin: 10px;
-  /* display: inline-block; */
+  transition: background-image 0.3s ease;
 }
 
 
