@@ -5,8 +5,9 @@ import { FaInstagram } from "react-icons/fa6";
 import IMGCSS from '../../assets/project-images/csscourse.png';
 import IMGBOAT from '../../assets/project-images/boat.png';
 import Filter01 from '../../assets/project-images/filter.png';
+import Section from '../shared/Section';
 
-const data = [
+const softwareData = [
 
   {
     id: 1,
@@ -14,8 +15,9 @@ const data = [
     titleh4: 'A website that demonstrate the use modern CSS features, such as Flexbox and CSS grid.',
     titleh5: 'JS CSS Flexbox Grid',
     image: IMGCSS,
-    github: 'https://elifortes.github.io/CSS-course/',
-    demo: 'https://github.com/elifortes/CSS-course.git',
+    github: 'https://github.com/elifortes/CSS-course.git',
+    demo: 'https://elifortes.github.io/CSS-course/',
+    icon: <FaGithub/>
   },
   {
     id: 2,
@@ -24,7 +26,7 @@ const data = [
     titleh5: 'Ruby-on-Rails JS Bootstrap Heroku',
     image: IMGBOAT,
     github: 'https://github.com/elifortes/Airbnb-Boat.git',
-    demo: 'https://github.com/elifortes/Airbnb-Boat.git',
+    icon: <FaGithub/>
   },
   {
     id: 3,
@@ -33,8 +35,11 @@ const data = [
     titleh5: 'bla',
     image: IMGBOAT,
     github: 'https://github.com/elifortes/Airbnb-Boat.git',
-    demo: 'https://github.com/elifortes/Airbnb-Boat.git',
-  },
+    icon: <FaGithub/>
+  }
+]
+
+const designingData = [
   {
     id: 4,
     titleh3: 'Instagram Filters',
@@ -42,37 +47,17 @@ const data = [
     titleh5: 'Canva Spark-AR-Studio Photoshop JS',
     image: Filter01,
     github: 'https://www.instagram.com/ar/1616459879160433/',
-    demo: 'https://www.instagram.com/ar/1616459879160433/',
+    icon: <FaInstagram/>
   },
 ]
 
 const Projects = () => {
-  return (
-    <section id='projects'>
-      <h2>Software Development</h2>
-      <div className='container portfolio_container'>
-      {
-        data.map(({id, titleh3, titleh4, titleh5, image, github, demo}) => {
-          return (
-          <article key={id} className='portfolio_item'>
-          <h3>{titleh3}</h3>
-          <h4>{titleh4}</h4>
-            <div className='portfolio_item-image'>
-              <a href={github}>
-              <img src={image} alt='' />
-              </a>
-              <div className='portfolio_item-cta'>
-                <a href={demo} target='_blank'><FaGithub/></a>
-                <h5>{titleh5}</h5>
-              </div>
-            </div>
-          </article>
-          )
-        })
-      }
 
-      </div>
-    </section>
+  return (
+    <>
+      <Section id='projects' title='Software Development' cardsData={softwareData} />
+      <Section id='designProjects' title='Design' cardsData={designingData} />
+    </>
   );
 }
 
