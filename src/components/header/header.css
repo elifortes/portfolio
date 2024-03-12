@@ -41,12 +41,15 @@ header {
 /* -------- ME --------- */
 
 .me {
+  background-color: linear-gradient(45deg, #009FFF, #ec2F4B);
   width: 25rem;
   height: 30rem;
-  margin-top: 1rem;
-  position: absolute;
-  left: calc(50% - 11rem);
+  position: relative;
+  left: calc(47% - 10rem);
   padding: 1.5rem;
+  margin-top: 4rem;
+  border-radius: 10rem;
+  box-shadow: 0 0 15px #00c6ff
 }
 
 /* -------- SCROLL DOWN --------- */

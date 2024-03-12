@@ -12,7 +12,7 @@ const ItemCard = (props) => {
                 </a> : null}
               {props.liveURL || props.codeURL ?
               <div className='portfolio_item-cta'>
-                <a href={props.liveURL || props.codeURL}>{props.icon}</a>
+                <a href={props.codeURL || props.liveURL}>{props.icon}</a>
                 <h5>{props.titleH5}</h5>
               </div> : null
               }
