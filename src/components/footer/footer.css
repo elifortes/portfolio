@@ -1,13 +1,13 @@
 footer {
   position: relative;
-  padding-top: 5rem;
+  padding-top: 9rem;
   padding-bottom: 120px;
   font-size: 1rem;
   text-align: center;
   background-image: url('../../assets/ilustrations/wave.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 300%;
+  background-size: 280%;
   overflow: hidden;
   color: var(--text-color-dark);
 
