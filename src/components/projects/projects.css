@@ -10,8 +10,8 @@
 }
 
 .portfolio_item-image {
-width: 50%;
-height: auto;
+  width: 50%;
+  height: auto;
 }
 
 .portfolio_item-image img {
@@ -58,31 +58,6 @@ height: auto;
   gap: 1rem;
 }
 
-/* ------------ Project Filter ------------- */
-
-
-/* .portfolio_container-filter {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.portfolio_item-filter {
-  padding: 1rem;
-  margin: 0;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.portfolio_item-filter h4 {
-  margin: 1.2rem 0;
-  color: var(--color-light);
-}
-
-.portfolio_item-filter h5 {
-  color: var(--color-light);
-} */
 
 
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
@@ -94,7 +69,10 @@ height: auto;
   }
   #projects h2 {
     margin-top: 2rem;
-    }
+  }
+  #software h2 {
+    margin-top: -5rem;
+  }
 }
 
 /* -------- MEDIA (SMALL DEVICES) -------- */

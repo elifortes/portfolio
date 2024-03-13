@@ -39,8 +39,30 @@ footer {
   color: black;
 }
 
+/* -------- MEDIA (MEDIUM DEVICES) -------- */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  footer {
+    background-size: 800%;
+  }
+  .permalinks a,
+  .footer_copy {
+    font-size: x-large;
+  }
+
+}
+
+/* -------- MEDIA (SMALL DEVICES) -------- */
+
 @media screen and (max-width: 600px) {
   footer {
-    margin-top: -5rem;
+    margin-top: 5rem;
+    background-size: 1000%;
+  }
+  .permalinks a {
+    gap: 2rem;
+  }
+  .footer_copy{
+    margin-right: 0.5rem;
   }
 }

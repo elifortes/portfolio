@@ -69,6 +69,23 @@ header {
   header {
     height: 68vh;
   }
+  .header_socials {
+    width: 0%;
+    margin-bottom: 0%;
+  }
+
+  .scroll_down {
+    bottom: 18rem;
+  }
+
+  .me {
+    width: 20rem;
+    height: 20rem;
+    left: calc(55% - 11rem);
+    padding: 2rem;
+    margin-top: 1rem;
+    box-shadow: none;
+  }
 }
 
 /* -------- MEDIA (SMALL DEVICES) -------- */
@@ -82,4 +99,13 @@ header {
   .scroll_down {
     display: none;
   }
+
+  .me {
+    width: 20rem;
+    height: 25rem;
+    left: calc(50% - 10rem);
+
+  }
+
+
 }
