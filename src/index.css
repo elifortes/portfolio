@@ -11,7 +11,23 @@
 }
 
 :root {
-  --color-bg: white;
+
+  /* Light theme colors */
+  --background-color-light: white;
+  --text-color-light: black;
+  --portfolio-item-bg-light: white;
+
+  /* Dark theme colors */
+  --background-color-dark: rgb(33, 33, 33);
+  --text-color-dark: white;
+  --portfolio-item-bg-dark: black;
+
+  /* Default theme colors */
+  --background-color: var(--background-color-dark);
+  --text-color: var(--text-color-dark);
+  --portfolio-item-bg: var(--portfolio-item-bg-dark);
+
+
   --color-light: grey;
   --color-blue: blue;
 
@@ -21,85 +37,36 @@
 
 }
 
-.swith {
-  display: flex;
-  justify-content: center;
+
+h1, h2, h3, h4, .scroll_down, .portfolio_item-cta a, .header_socials a, p, .success-message, input, textarea, .swith {
+  color: var(--text-color);
 }
 
 #light {
-  background-color: white;
-}
-
-#light .header_socials a{
-  color: black;
-}
-
-#light h3{
-  color: black;
-}
-
-#light h2{
-  color: black;
+  --background-color: var(--background-color-light);
+  --text-color: var(--text-color-light);
+  --portfolio-item-bg: var(--portfolio-item-bg-light);
 }
 
 
-#light header h4{
-  color: var(--color-light);
+#light, #dark {
+  background-color: var(--background-color);
 }
 
-#light .scroll_down {
-  color: black;
-}
-/*
-#light textarea {
-  border: none;
-} */
 
-#light .portfolio_item-cta a {
-  color: black;
+.portfolio_item {
+  background-color: var(--portfolio-item-bg);
 }
 
-#dark {
-  background-color: rgb(33, 33, 33)
+.swith {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  margin-bottom: -2rem;
+  gap: 1.5rem;
+
 }
 
-#dark .portfolio_item {
-  background-color: black;
-}
-
-#dark .success-message {
-  color: white;
-}
-
-#dark
-h1,
-h2,
-h3,
-h4,
-.scroll_down,
-#about,
-#projects,
-.portfolio_item-cta a
-{
-  color: white;
-}
-
-#dark .header_socials a {
-  color: white;
-}
-
-#dark .header_socials::after{
-  background-color: white;
-}
-
-#dark input, textarea {
-  background-color: white;
-  /* border: var(--color-bg); */
-}
-
-/* #dark .permalinks a {
-  color: white;
-} */
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -107,7 +74,6 @@ body {
   line-height: 1.7;
 }
 
-/* -------- GENERAL STYLES -------- */
 
 .container {
   width: var(--container-width-lg);
@@ -124,21 +90,10 @@ h1 {
   font-size: 2.5rem;
 }
 
-
-
 h4,
 h5 {
   font-weight: 400;
-  /* font-size: 15pt; */
 }
-
-/* font-size: 20pt;
-font-weight: bold; */
-
-/* section {
-  margin-top: 8rem;
-  height: 100vh;
-} */
 
 section > h2 {
   text-align: center;
@@ -170,6 +125,16 @@ img{
 
 
 
+
+
+
+/* -------- MEDIA (LARGE DEVICES) -------- */
+
+@media screen and (max-width: 1439px) {
+  .container {
+    width: var(--container-widtth-lg);
+  }
+}
 
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
 
