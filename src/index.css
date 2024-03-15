@@ -36,6 +36,14 @@
   --container-width-sm: 90%;
 
 }
+.App { 
+  display: flex;
+  justify-content: center;
+}
+
+.appContainer {
+  max-width: 1200px;
+}
 
 h1, h2, h3, h4, a, p, input, textarea, .swith {
   color: var(--text-color);

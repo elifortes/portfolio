@@ -1,12 +1,10 @@
 .header {
-  height: 100vh;
   padding-top: 2rem;
   overflow: hidden;
 }
 
 .header__container {
   text-align: center;
-  height: 100%;
   position: relative;
 }
 
@@ -35,13 +33,23 @@
   background-color: var(--text-color);
 }
 
-.header__pic {
+.header__pic__container {
+  background: none;
   width: 25rem;
   height: 30rem;
-  position: relative;
-  left: calc(47% - 10rem);
-  padding: 1.5rem;
-  margin-top: 4rem;
+  position: relative; /* Change this if you specifically need it positioned inside a specific container */
+  margin: 4rem auto; /* Auto margins can also help in centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.header__pic {
+  max-width: 100%; /* Ensures the image does not exceed the container's width */
+  max-height: 100%; /* Ensures the image does not exceed the container's height */
+  object-fit: contain; /* Maintains aspect ratio and ensures the image fits within the container */
   border-radius: 10rem;
   box-shadow: 0 0 15px #00c6ff;
 }
@@ -65,7 +73,7 @@
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
 @media screen and (max-width: 1024px) {
   .header {
-    height: 68vh;
+    min-height: 68vh;
   }
   .header__socials {
     width: 0%;
@@ -77,11 +85,6 @@
   }
 
   .header__pic {
-    width: 20rem;
-    height: 20rem;
-    left: calc(55% - 11rem);
-    padding: 2rem;
-    margin-top: 1rem;
     box-shadow: none;
   }
 }
@@ -90,7 +93,7 @@
 /* -------- MEDIA (SMALL DEVICES) -------- */
 @media screen and (max-width: 600px) {
   .header {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .header__socials,

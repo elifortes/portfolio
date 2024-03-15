@@ -24,16 +24,18 @@ const App = () => {
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <div className='App' id={theme}>
-        <div className='swith'>
-          <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
-         <span className='message'> { themeMessage } </span>
+        <div className='appContainer'>
+          <div className='swith'>
+            <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
+          <span className='message'> { themeMessage } </span>
+          </div>
+          <Header />
+          <Nav />
+          <Projects />
+          <About />
+          <Contact />
+          <Footer />
         </div>
-        <Header />
-        <Nav />
-        <Projects />
-        <About />
-        <Contact />
-        <Footer />
       </div>
     </ThemeContext.Provider>
   );

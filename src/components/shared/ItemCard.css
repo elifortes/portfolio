@@ -4,14 +4,33 @@
   box-shadow: 8px 8px 8px rgba(24, 24, 24, 0.2);
 }
 
+.item-card__title{
+  height: 15%;
+}
+
+.item-card__subtitle{
+  height: 20%;
+}
+
 .item-card__image-container {
     width: 50%;
-    height: auto;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.item-card__link{
+  height: 90%;
+  display: flex;
+  align-items: center;
 }
   
 .item-card__image {
     display: block;
     margin-left: 50%;
+    max-height: 100%;
 }
   
 .item-card__subtitle, .item-card__tech-stack {

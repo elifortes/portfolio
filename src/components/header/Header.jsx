@@ -31,8 +31,8 @@ const Header = () => {
         <h4 className='header__text-light'>Software Developer</h4>
         <CTA />
         <HeaderSocials />
-        <div className='header__pic'>
-          <img src={ElianePic} alt='Eliane Fortes' />
+        <div className='header__pic__container'>
+          <img src={ElianePic} alt='Eliane Fortes' className='header__pic'/>
         </div>
       </div>
     </header>

@@ -3,7 +3,7 @@ import './ItemCard.css';
 
 const ItemCard = (props) => {
   return (
-    <article key={props.id} className='item-card'>
+    <div key={props.id} className='item-card'>
       <h3 className='item-card__title'>{props.title}</h3>
       <h4 className='item-card__subtitle'>{props.subtitle}</h4>
       <div className='item-card__image-container'>
@@ -18,7 +18,7 @@ const ItemCard = (props) => {
           </div> : null
         }
       </div>
-    </article>
+    </div>
   )
 }
 
