@@ -1,4 +1,4 @@
-nav {
+.nav {
   background: rgb(240, 238, 238);
   width: max-content;
   padding: 0.2rem 1rem;
@@ -15,7 +15,7 @@ nav {
   backdrop-filter: blur(15px);
 }
 
-nav a {
+.nav__link {
   background: transparent;
   padding: 0.9rem;
   display: flex;
@@ -23,11 +23,11 @@ nav a {
   font-size: large;
 }
 
-nav a:hover {
+.nav__link:hover {
   color: black;
 }
 
-nav a.active {
+.nav__link--active {
   background: lightgrey;
   color: black;
   border-radius: 2rem;

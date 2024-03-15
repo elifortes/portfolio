@@ -1,23 +1,24 @@
 import React from 'react';
+import './ItemCard.css';
 
 const ItemCard = (props) => {
   return (
-    <article key={props.id} className='portfolio_item'>
-          <h3>{props.titleH3}</h3>
-          <h4>{props.titleH4}</h4>
-            <div className='portfolio_item-image'>
-              {props.liveURL || props.codeURL ?
-                <a href={props.liveURL || props.codeURL}>
-                <img src={props.image} alt='' />
-                </a> : null}
-              {props.liveURL || props.codeURL ?
-              <div className='portfolio_item-cta'>
-                <a href={props.codeURL || props.liveURL}>{props.icon}</a>
-                <h5>{props.titleH5}</h5>
-              </div> : null
-              }
-            </div>
-          </article>
+    <article key={props.id} className='item-card'>
+      <h3 className='item-card__title'>{props.title}</h3>
+      <h4 className='item-card__subtitle'>{props.subtitle}</h4>
+      <div className='item-card__image-container'>
+        {props.liveURL || props.codeURL ?
+          <a href={props.liveURL || props.codeURL} className='item-card__link'>
+            <img src={props.image} alt='' className='item-card__image'/>
+          </a> : null}
+        {props.liveURL || props.codeURL ?
+          <div className='item-card__cta'>
+            <a href={props.codeURL || props.liveURL} className='item-card__cta-link'>{props.icon}</a>
+            <h5 className='item-card__tech-stack'>{props.techStack}</h5>
+          </div> : null
+        }
+      </div>
+    </article>
   )
 }
 

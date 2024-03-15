@@ -1,0 +1,29 @@
+.section-card {
+  margin-top: 2rem;
+}
+
+.section-card {
+    margin: 10px;
+}
+  
+.section-card__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+/* -------- MEDIA (MEDIUM DEVICES) -------- */
+@media screen and (max-width: 1024px) {
+  .section-card__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+  
+/* -------- MEDIA (SMALL DEVICES) -------- */
+@media screen and (max-width: 600px) {
+  .section-card__container {
+    grid-template-columns: 1fr;
+     gap: 1rem;
+  }
+}
