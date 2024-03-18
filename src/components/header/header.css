@@ -1,24 +1,19 @@
-header {
-  height: 100vh;
+.header {
   padding-top: 2rem;
   overflow: hidden;
 }
 
-.header_container {
+.header__container {
   text-align: center;
-  height: 100%;
   position: relative;
 }
 
-.cta {
+.header__cta {
   margin-top: 2.5rem;
   justify-content: center;
 }
 
-
-/* -------- HEADER SOCIALS --------- */
-
-.header_socials {
+.header__socials {
   width: 150px;
   display: flex;
   flex-direction: column;
@@ -31,30 +26,35 @@ header {
   font-size: x-large;
 }
 
-.header_socials::after {
+.header__socials::after {
   content: "";
   width: 2px;
   height: 1.5rem;
-  background-color: black;
+  background-color: var(--text-color);
 }
 
-/* -------- ME --------- */
-
-.me {
-  background-color: linear-gradient(45deg, #009FFF, #ec2F4B);
+.header__pic__container {
+  background: none;
   width: 25rem;
   height: 30rem;
-  position: relative;
-  left: calc(47% - 10rem);
-  padding: 1.5rem;
-  margin-top: 4rem;
-  border-radius: 10rem;
-  box-shadow: 0 0 15px #00c6ff
+  position: relative; /* Change this if you specifically need it positioned inside a specific container */
+  margin: 4rem auto; /* Auto margins can also help in centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-/* -------- SCROLL DOWN --------- */
 
-.scroll_down {
+.header__pic {
+  max-width: 100%; /* Ensures the image does not exceed the container's width */
+  max-height: 100%; /* Ensures the image does not exceed the container's height */
+  object-fit: contain; /* Maintains aspect ratio and ensures the image fits within the container */
+  border-radius: 10rem;
+  box-shadow: 0 0 15px #00c6ff;
+}
+
+.header__scroll-down {
   position: absolute;
   right: 1rem;
   bottom: 20rem;
@@ -62,50 +62,48 @@ header {
   font-size: large;
 }
 
+.header__btn:visited {
+  text-decoration: none;
+}
+
+.header__social-link:visited {
+  text-decoration: none;
+}
 
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
-
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
+  .header {
+    min-height: 68vh;
   }
-  .header_socials {
+  .header__socials {
     width: 0%;
     margin-bottom: 0%;
   }
 
-  .scroll_down {
+  .header__scroll-down {
     bottom: 18rem;
   }
 
-  .me {
-    width: 20rem;
-    height: 20rem;
-    left: calc(55% - 11rem);
-    padding: 2rem;
-    margin-top: 1rem;
+  .header__pic {
     box-shadow: none;
   }
 }
 
-/* -------- MEDIA (SMALL DEVICES) -------- */
 
+/* -------- MEDIA (SMALL DEVICES) -------- */
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
+  .header {
+    min-height: 100vh;
   }
 
-  .header_socials,
-  .scroll_down {
+  .header__socials,
+  .header__scroll-down {
     display: none;
   }
 
-  .me {
+  .header__pic {
     width: 20rem;
     height: 25rem;
     left: calc(50% - 10rem);
-
   }
-
-
 }

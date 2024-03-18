@@ -1,34 +1,33 @@
-footer {
+.footer {
   position: relative;
   padding-top: 9rem;
   padding-bottom: 120px;
   font-size: 1rem;
   text-align: center;
-  background-image: url('../../assets/ilustrations/wave.png');
+  background-image: url('../../assets/images/wave.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 280%;
   overflow: hidden;
   color: var(--text-color-dark);
-
 }
 
-.footer_name h2{
+.footer__name h2 {
   margin: 1rem;
 }
 
-.permalinks {
+.footer__permalinks {
   display: flex;
   justify-content: center;
   gap: 3rem;
   margin: 0 auto 3rem;
 }
 
-.permalinks a {
+.footer__permalinks a {
   color: black;
 }
 
-.footer_copy {
+.footer__copy {
   display: flex;
   margin-top: -1.5rem;
   justify-content: center;
@@ -36,34 +35,36 @@ footer {
   color: black;
 }
 
-.footer_copy a {
+.footer__copy a {
   color: black;
 }
 
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
 
 @media (min-width: 601px) and (max-width: 1024px) {
-  footer {
+  .footer {
     background-size: 800%;
   }
-  .permalinks a,
-  .footer_copy {
+
+  .footer__permalinks a,
+  .footer__copy {
     font-size: x-large;
   }
-
 }
 
 /* -------- MEDIA (SMALL DEVICES) -------- */
 
 @media screen and (max-width: 600px) {
-  footer {
+  .footer {
     margin-top: 5rem;
     background-size: 1000%;
   }
-  .permalinks a {
+
+  .footer__permalinks {
     gap: 2rem;
   }
-  .footer_copy{
+
+  .footer__copy {
     margin-right: 0.5rem;
   }
 }

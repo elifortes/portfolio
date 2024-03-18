@@ -1,24 +1,20 @@
 import React from 'react';
+import './SectionCard.css'
 import ItemCard from './ItemCard';
 
-
 const SectionCard = (props) => {
-
   return (
-    <section id={props.id} className='cardSection'>
-    <h2>{props.title}</h2>
-    <div className='container portfolio_container'>
-    {
-      props.cardsData && props.cardsData.map(({codeURL, id, icon, image, liveURL, titleH3, titleH4, titleH5 } = props.cardsData) => {
-        return (
-          <ItemCard codeURL={codeURL} key={id} icon={icon} image={image} liveURL={liveURL} titleH3={titleH3} titleH4={titleH4} titleH5={titleH5} />
-        )
-      })
-    }
-
-    </div>
-  </section>
-);
+    <section key={props.id+Math.random()} className='section-card'>
+      <h2 className='section-card__title'>{props.title}</h2>
+      <div className='container section-card__container'>
+        {
+          props.cardsData && props.cardsData.map(
+            (data) => <ItemCard key={data.id} {...data}/>
+          )
+        }
+      </div>
+    </section>
+  );
 }
 
 export default SectionCard;
