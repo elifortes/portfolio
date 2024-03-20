@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1db80093.css",
-    "main.js": "/portfolio/static/js/main.4dcf0bf0.js",
+    "main.css": "/portfolio/static/css/main.f70cd16a.css",
+    "main.js": "/portfolio/static/js/main.333a177f.js",
     "static/media/css-course.png": "/portfolio/static/media/css-course.f0ae23f72878ca366831.png",
     "static/media/boat.png": "/portfolio/static/media/boat.e28dfe13ea2a7d3aefcc.png",
     "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.d27e57ee29e2a7d7253e.png",
     "static/media/about.png": "/portfolio/static/media/about.9626560039cec525d4ef.png",
-    "static/media/filter.png": "/portfolio/static/media/filter.c317b597ef6eb76f7fc7.png",
     "static/media/girl.png": "/portfolio/static/media/girl.fc087d395eb40e12643c.png",
-    "static/media/Gift_Genius.png": "/portfolio/static/media/Gift_Genius.31f3ea83978a0ca7c845.png",
+    "static/media/filter.png": "/portfolio/static/media/filter.ca7ce91dba8cf7dbe2a3.png",
     "static/media/CV.pdf": "/portfolio/static/media/CV.406d8516854b0929a1b7.pdf",
     "static/media/wave.png": "/portfolio/static/media/wave.2ad0d236589227a417a2.png",
     "index.html": "/portfolio/index.html",
-    "main.1db80093.css.map": "/portfolio/static/css/main.1db80093.css.map",
-    "main.4dcf0bf0.js.map": "/portfolio/static/js/main.4dcf0bf0.js.map"
+    "main.f70cd16a.css.map": "/portfolio/static/css/main.f70cd16a.css.map",
+    "main.333a177f.js.map": "/portfolio/static/js/main.333a177f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1db80093.css",
-    "static/js/main.4dcf0bf0.js"
+    "static/css/main.f70cd16a.css",
+    "static/js/main.333a177f.js"
   ]
 }
