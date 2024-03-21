@@ -8,6 +8,12 @@
   gap: 1.2rem;
 }
 
+.section-card__container #design {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.2rem;
+}
+
 /* -------- MEDIA (MEDIUM DEVICES) -------- */
 @media screen and (max-width: 1024px) {
   .section-card__container {
@@ -15,12 +21,12 @@
     gap: 1.2rem;
   }
 }
-  
+
 /* -------- MEDIA (SMALL DEVICES) -------- */
 @media screen and (max-width: 700px) {
   .section-card__container {
     grid-template-columns: 1fr;
-     gap: 1rem;
-     max-width: 400px;
+    gap: 1rem;
+    max-width: 400px;
   }
 }

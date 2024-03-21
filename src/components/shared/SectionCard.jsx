@@ -4,7 +4,7 @@ import ItemCard from './ItemCard';
 
 const SectionCard = (props) => {
   return (
-    <section key={props.id+Math.random()} className='section-card'>
+    <section id={props.id} className='section-card'>
       <h2 className='section-card__title'>{props.title}</h2>
       <div className='container section-card__container'>
         {

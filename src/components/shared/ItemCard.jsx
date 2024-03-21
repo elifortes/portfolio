@@ -8,7 +8,7 @@ const ItemCard = (props) => {
       <h4 className='item-card__subtitle'>{props.subtitle}</h4>
       <div className='item-card__image-container'>
         {props.liveURL || props.codeURL ?
-          <a href={props.liveURL || props.codeURL} className='item-card__link'>
+          <a href={props.liveURL || props.codeURL}>
             <img src={props.image} alt='' className='item-card__image'/>
           </a> : null}
         {props.liveURL || props.codeURL ?

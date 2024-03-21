@@ -36,7 +36,7 @@
   --container-width-sm: 90%;
 
 }
-.App { 
+.App {
   display: flex;
   justify-content: center;
 }

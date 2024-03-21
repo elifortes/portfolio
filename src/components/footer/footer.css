@@ -7,7 +7,7 @@
   background-image: url('../../assets/images/wave.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 280%;
+  background-size: 400%;
   overflow: hidden;
   color: var(--text-color-dark);
 }

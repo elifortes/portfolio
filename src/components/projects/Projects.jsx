@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import IMGCSS from '../../assets/project-images/css-course.png';
 import IMGBOAT from '../../assets/project-images/boat.png';
+import IMGIFT from '../../assets/project-images/Gift_Genius.png';
 import Filter01 from '../../assets/project-images/filter.png';
 import SectionCard from '../shared/SectionCard';
 
@@ -30,11 +31,11 @@ const SoftwareItems = [
     id: 3,
     icon: <FaGithub />,
     title: 'Gift Genius',
-    subtitle: 'Its a app and blabla.',
-    techStack: 'bla',
-    image: IMGBOAT,
-    liveURL: 'https://github.com/elifortes/Airbnb-Boat.git',
-    codeURL: 'https://github.com/elifortes/Airbnb-Boat.git',
+    subtitle: 'Anyone looking to find thoughtful and personalized gifts can use this app.',
+    techStack: 'Ruby-on-Rails JS Bootstrap Heroku',
+    image: IMGIFT,
+    liveURL: 'https://github.com/elifortes/Gift-Genius.git',
+    codeURL: 'https://github.com/elifortes/Gift-Genius.git',
   },
 ];
 
