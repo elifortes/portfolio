@@ -78,6 +78,15 @@ body {
   line-height: 1.7;
 }
 
+body.light {
+  --background-color: var(--background-color-light);
+}
+
+body.dark {
+  --background-color: var(--background-color-dark);
+}
+
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;

@@ -1,19 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, createContext } from 'react';
 import Header from './components/header/Header';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Nav from './components/nav/Nav';
 import Footer from './components/footer/Footer';
-import { createContext } from 'react';
 import ReactSwitch from 'react-switch';
-
 
 const ThemeContext = createContext(null);
 
-
 const App = () => {
   const [theme, setTheme] = useState('dark');
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === 'light' ? 'dark' : 'light'))
@@ -27,7 +28,7 @@ const App = () => {
         <div className='appContainer'>
           <div className='swith'>
             <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
-          <span className='message'> { themeMessage } </span>
+            <span className='message'> { themeMessage } </span>
           </div>
           <Header />
           <Nav />
