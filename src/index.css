@@ -74,9 +74,18 @@ h1, h2, h3, h4, a, p, input, textarea, .swith {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
+  background: var(--background-color);
   line-height: 1.7;
 }
+
+body.light {
+  --background-color: var(--background-color-light);
+}
+
+body.dark {
+  --background-color: var(--background-color-dark);
+}
+
 
 .container {
   width: var(--container-width-lg);
