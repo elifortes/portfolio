@@ -3,6 +3,7 @@ import { FaGithub, FaInstagram } from "react-icons/fa";
 import IMGCSS from '../../assets/project-images/css-course.png';
 import IMGBOAT from '../../assets/project-images/boat.png';
 import IMGIFT from '../../assets/project-images/Gift_Genius.png';
+import IMGSNAKE from '../../assets/project-images/game.png';
 import Filter01 from '../../assets/project-images/filter.png';
 import SectionCard from '../shared/SectionCard';
 
@@ -37,6 +38,16 @@ const SoftwareItems = [
     liveURL: 'https://github.com/elifortes/Gift-Genius.git',
     codeURL: 'https://github.com/elifortes/Gift-Genius.git',
   },
+  {
+    id: 4,
+    icon: <FaGithub />,
+    title: 'Snake Game',
+    subtitle: 'The classic Snake Game: How Long Can You Go?',
+    techStack: 'JS',
+    image: IMGSNAKE,
+    liveURL: 'https://github.com/elifortes/Snake_Game.git',
+    codeURL: 'https://github.com/elifortes/Snake_Game.git',
+  }
 ];
 
 const DesignItems = [
