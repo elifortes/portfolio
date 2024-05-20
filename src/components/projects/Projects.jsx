@@ -66,7 +66,7 @@ const DesignItems = [
 const Projects = () => {
   return (
     <>
-      <SectionCard id='software' title='Software Development' cardsData={SoftwareItems} />
+      <SectionCard id='software' title='Projects' cardsData={SoftwareItems} />
       <SectionCard id='design' title='Social Media Design' cardsData={DesignItems} />
     </>
   );

@@ -15,7 +15,7 @@ const About = () => {
             As an eternal learner, always fueled by curiosity and a firm belief that nothing is out of reach—it just hasn't been achieved yet.
             When I'm not immersed in learning new things, you might catch me on the tennis court, or taking walks with my trusty golden retriever.
             I have a deep appreciation for the simplicity and beauty of nature.
-            Get in touch :) Let's talk about this Developer Role you have in your company!
+            Get in touch :) Let's talk about this role you have in your company!
           </p>
         </div>
       </div>
