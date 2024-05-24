@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.21498175.css",
-    "main.js": "/static/js/main.05fc156b.js",
+    "main.js": "/static/js/main.1dc18000.js",
     "static/media/css-course.png": "/static/media/css-course.f0ae23f72878ca366831.png",
     "static/media/boat.png": "/static/media/boat.e28dfe13ea2a7d3aefcc.png",
     "static/media/profile-pic.png": "/static/media/profile-pic.d27e57ee29e2a7d7253e.png",
@@ -10,14 +10,14 @@
     "static/media/girl.png": "/static/media/girl.fc087d395eb40e12643c.png",
     "static/media/Gift_Genius.png": "/static/media/Gift_Genius.31f3ea83978a0ca7c845.png",
     "static/media/game.png": "/static/media/game.3fc1282ad6c7c8c6579f.png",
-    "static/media/CV.pdf": "/static/media/CV.9214d5ee89c41030077c.pdf",
+    "static/media/CV.pdf": "/static/media/CV.11839a6d96ab247d35e0.pdf",
     "static/media/wave.png": "/static/media/wave.2ad0d236589227a417a2.png",
     "index.html": "/index.html",
     "main.21498175.css.map": "/static/css/main.21498175.css.map",
-    "main.05fc156b.js.map": "/static/js/main.05fc156b.js.map"
+    "main.1dc18000.js.map": "/static/js/main.1dc18000.js.map"
   },
   "entrypoints": [
     "static/css/main.21498175.css",
-    "static/js/main.05fc156b.js"
+    "static/js/main.1dc18000.js"
   ]
 }
