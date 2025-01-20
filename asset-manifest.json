@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.21498175.css",
-    "main.js": "/static/js/main.1dc18000.js",
+    "main.js": "/static/js/main.94a40364.js",
     "static/media/css-course.png": "/static/media/css-course.f0ae23f72878ca366831.png",
     "static/media/boat.png": "/static/media/boat.e28dfe13ea2a7d3aefcc.png",
     "static/media/profile-pic.png": "/static/media/profile-pic.d27e57ee29e2a7d7253e.png",
+    "static/media/IMGRECIPE.png": "/static/media/IMGRECIPE.baef4941db92b03a0643.png",
     "static/media/about.png": "/static/media/about.9626560039cec525d4ef.png",
     "static/media/filter.png": "/static/media/filter.c317b597ef6eb76f7fc7.png",
     "static/media/girl.png": "/static/media/girl.fc087d395eb40e12643c.png",
+    "static/media/CV.pdf": "/static/media/CV.80d904b8c76db32927c6.pdf",
     "static/media/Gift_Genius.png": "/static/media/Gift_Genius.31f3ea83978a0ca7c845.png",
+    "static/media/IMGDA.png": "/static/media/IMGDA.74e14caaa639108e3f5f.png",
     "static/media/game.png": "/static/media/game.3fc1282ad6c7c8c6579f.png",
-    "static/media/CV.pdf": "/static/media/CV.11839a6d96ab247d35e0.pdf",
     "static/media/wave.png": "/static/media/wave.2ad0d236589227a417a2.png",
     "index.html": "/index.html",
     "main.21498175.css.map": "/static/css/main.21498175.css.map",
-    "main.1dc18000.js.map": "/static/js/main.1dc18000.js.map"
+    "main.94a40364.js.map": "/static/js/main.94a40364.js.map"
   },
   "entrypoints": [
     "static/css/main.21498175.css",
-    "static/js/main.1dc18000.js"
+    "static/js/main.94a40364.js"
   ]
 }
