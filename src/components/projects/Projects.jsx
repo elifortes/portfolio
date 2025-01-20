@@ -1,9 +1,11 @@
 import React from 'react';
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import IMGCSS from '../../assets/project-images/css-course.png';
 import IMGBOAT from '../../assets/project-images/boat.png';
 import IMGIFT from '../../assets/project-images/Gift_Genius.png';
 import IMGSNAKE from '../../assets/project-images/game.png';
+import IMGDA from '../../assets/project-images/IMGDA.png';
+import IMGRECIPE from '../../assets/project-images/IMGRECIPE.png';
 import Filter01 from '../../assets/project-images/filter.png';
 import SectionCard from '../shared/SectionCard';
 
@@ -47,7 +49,26 @@ const SoftwareItems = [
     image: IMGSNAKE,
     liveURL: 'https://github.com/elifortes/Snake_Game.git',
     codeURL: 'https://github.com/elifortes/Snake_Game.git',
-  }
+  },
+  {
+    id: 5,
+    icon: <FaLinkedin/>,
+    title: 'Chicago City Council',
+    subtitle: "Examining complaints by councilperson's area.",
+    techStack: 'Tableau Excel SQL',
+    image: IMGDA,
+    liveURL: 'https://linkedin.com',
+  },
+  {
+    id: 6,
+    icon: <FaGithub />,
+    title: 'SimplEli Recipes',
+    subtitle: 'A website that demonstrate a variety of delicious recipes.',
+    techStack: 'JS CSS',
+    image: IMGRECIPE,
+    liveURL: 'https://elifortes.github.io/final-project-frontend-GA/',
+    codeURL: 'https://github.com/elifortes/final-project-frontend-GA',
+  },
 ];
 
 const DesignItems = [
