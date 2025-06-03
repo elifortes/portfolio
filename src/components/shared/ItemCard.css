@@ -2,7 +2,9 @@
   padding: 1rem;
   margin: 0;
   box-shadow: 8px 8px 8px black;
-  height: 30rem;
+  height: auto;
+  min-height: 30rem;
+  /* height: 30rem; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -13,19 +15,23 @@
 }
 
 .item-card__subtitle{
-  height: 6rem;
+  /* height: 6rem; */
   text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .item-card__image-container {
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
+    max-height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding-bottom: 1rem;
     overflow: hidden;
+    margin-top: 0.5rem;
 }
 
 .item-card__link{
@@ -39,8 +45,8 @@
     display: block;
     width: 100%;
     margin: 0 auto;
-    /* height: 80%;
-    object-fit: fill; */
+    height: auto;
+    object-fit: fill;
     gap: 2rem;
 }
 

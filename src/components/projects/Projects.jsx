@@ -1,15 +1,25 @@
 import React from 'react';
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaShoppingCart } from "react-icons/fa";
 import IMGCSS from '../../assets/project-images/css-course.png';
 import IMGBOAT from '../../assets/project-images/boat.png';
 import IMGIFT from '../../assets/project-images/Gift_Genius.png';
 import IMGSNAKE from '../../assets/project-images/game.png';
 import IMGDA from '../../assets/project-images/IMGDA.png';
 import IMGRECIPE from '../../assets/project-images/IMGRECIPE.png';
+import IMGECOMMERCE from '../../assets/project-images/IMGECOMMERCE.jpg'
 import Filter01 from '../../assets/project-images/filter.png';
 import SectionCard from '../shared/SectionCard';
 
 const SoftwareItems = [
+  {
+    id: 5,
+    icon: <FaShoppingCart />,
+    title: 'TechStitch (Personal E-commerce)',
+    subtitle: 'My personal e-commerce store, offering unique tech-themed t-shirts featuring everyday tech phrases.',
+    techStack: 'Shopify Printify DNS Cloudflare',
+    image: IMGECOMMERCE,
+    liveURL: 'https://techstitch.com.au/',
+  },
   {
     id: 1,
     icon: <FaGithub />,
