@@ -12,10 +12,11 @@ const About = () => {
         <div className='about__content'>
           <h2 className='about__header'> More about me </h2>
           <p className='about__text'>
-            As an eternal learner, always fueled by curiosity and a firm belief that nothing is out of reach—it just hasn't been achieved yet.
-            When I'm not immersed in learning new things, you might catch me on the tennis court, or taking walks with my trusty golden retriever.
-            I have a deep appreciation for the simplicity and beauty of nature.
-            Get in touch :) Let's talk about this role you have in your company!
+            I’m a Data Analyst with a background in business analysis in the automotive industry.
+            I’ve studied data analytics at General Assembly and Le Wagon and hold the AWS Cloud Practitioner certification.
+            I enjoy turning messy data into clear answers that help businesses make better decisions.
+            Outside work, you’ll find me on the tennis court or walking my golden retriever.
+            Let’s talk!
           </p>
         </div>
       </div>
