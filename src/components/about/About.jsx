@@ -12,11 +12,23 @@ const About = () => {
         <div className='about__content'>
           <h2 className='about__header'> More about me </h2>
           <p className='about__text'>
-            I’m a Data Analyst with a background in business analysis in the automotive industry.
-            I’ve studied data analytics at General Assembly and Le Wagon and hold the AWS Cloud Practitioner certification.
-            I enjoy turning messy data into clear answers that help businesses make better decisions.
-            Outside work, you’ll find me on the tennis court or walking my golden retriever.
-            Let’s talk!
+              I’m a customer-focused professional with over 7 years of
+              experience in customer service and a background in business
+              and data analytics.
+
+              I enjoy connecting with people, understanding their needs
+              and finding practical solutions. My analytical background
+              allows me to approach challenges with curiosity, empathy
+              and a problem-solving mindset.
+
+              I hold a Bachelor’s degree in Business Administration,
+              have studied Data Analytics at General Assembly and am
+              an AWS Certified Cloud Practitioner.
+
+              Outside work, you’ll find me on the tennis court or
+              walking my golden retriever.
+
+              Let’s connect!
           </p>
         </div>
       </div>
